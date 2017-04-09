@@ -33,13 +33,20 @@ http-server -p 8088 --cors
 
 Now you can install into Emby Theater using the http://localhost:8088/package.json
 
+# Installing theme locally
 To do this: type http://localhost:8088 into your browser bar. (This will confirm that 1. The server is running and 2 you can access your repository.
-Next, find your folder for your theme and locate the package.json file.
-Click this and you should see what's written in the the package.json in your browser
-Copy this address (CTRL+C)
-Go into tv.emby.media. Go to settings and Select "Installed Plugins"
-Select Install plugin, then select from URL and then paste your copied address in.
+
+Next, find your folder for your theme thru the directory trees and locate the package.json file.
+
+Click this and you should see what's written in the the package.json in your browser.  Copy this address from your browser (CTRL+C)
+*Note: this address can also be used to install locally in Emby Theater for Windows
+
+Go into http://tv.emby.media and Go to settings and Select "Installed Plugins"
+ 
+Select Install plugin, then select from URL from the list and then paste your copied address in.
+
 You should have your theme loaded.
+
 Now load it from the Display Settings Menu and your done.
 
 
